@@ -1,0 +1,27 @@
+Ce que fait le script :
+
+1)Vérifie et installe les outils essentiels (build-essential, wget, tar) pour la compilation.
+
+2)Télécharge l’archive depuis le lien fourni.
+
+3)Décompresse l’archive et entre dans le répertoire créé.
+
+4)Exécute ./configure :
+
+	Recherche les fichiers d’en-tête manquants dans config.log.
+	Installe automatiquement les paquets correspondants via apt-get.
+	Relance ./configure jusqu’à succès.
+
+5)Compile le programme avec make :
+
+	Continue même si des erreurs surviennent.
+	Logue toutes les erreurs dans install_errors.log.
+
+6)Installe le programme avec sudo make install :
+
+	Continue même si des erreurs surviennent.
+	Logue également les erreurs dans le même fichier.
+
+7)Fichier de log : install_errors.log contient toutes les erreurs de compilation et d’installation pour consultation ultérieure.
+
+8)Automatisation totale : L’utilisateur n’a qu’à fournir le lien vers l’archive .tar.gz.

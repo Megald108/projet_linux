@@ -1,0 +1,9 @@
+tmux the  Multiplexeur terminal. ==> https://github.com/tmux/tmux/releases/download/3.5a/tmux-3.5a.tar.gz
+ncurses the Bibliothèque terminal ==> https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.5.tar.gz
+git ==> https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.49.0.tar.gz
+MPV the lecteur vidéo moderne ==> https://github.com/mpv-player/mpv/archive/refs/tags/v0.40.0.tar.gz
+OBS Studio the streaming/recording ==> https://github.com/obsproject/obs-studio/archive/refs/tags/31.1.0.tar.gz
+Xournal++ the prise de notes PDF ==> https://github.com/xournalpp/xournalpp/archive/refs/tags/v1.2.7.tar.gz
+ripgrep — recherche ultra rapide ==> https://github.com/BurntSushi/ripgrep/archive/refs/tags/14.1.1.tar.gz
+GIMP — retouche photo ==> https://download.gimp.org/pub/gimp/v3.0/gimp-3.0.4.tar.xz?
+htop ==> https://github.com/htop-dev/htop/archive/refs/tags/3.3.0.tar.gz
